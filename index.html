@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=League+Spartan">
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+
+<body>
+
+  <div class="app">
+    <div class="app__main">
+      <h4 class="app__logo">Calc.</h4>
+      <div class="app__main-display">
+        <p id="display"></p>
+      </div>
+      <div class="app__main-button-outer-container">
+        <div class="app__main-button-container">
+          <button id="backspace" class="special-button">DEL</button>
+          <button class="app__main-button">9</button>
+          <button class="app__main-button">8</button>
+          <button class="app__main-button">7</button>
+        </div>
+
+        <div class="app__main-button-container">
+          <button class="app__main-button">+</button>
+          <button class="app__main-button">6</button>
+          <button class="app__main-button">5</button>
+          <button class="app__main-button">4</button>
+        </div>
+
+        <div class="app__main-button-container">
+          <button class="app__main-button">-</button>
+          <button class="app__main-button">3</button>
+          <button class="app__main-button">2</button>
+          <button class="app__main-button">1</button>
+        </div>
+
+        <div class="app__main-button-container">
+          <button class="app__main-button">*</button>
+          <button class="app__main-button">/</button>
+          <button class="app__main-button">0</button>
+          <button class="app__main-button">.</button>
+        </div>
+
+        <div class="app__main-footer">
+          <button class="special-button" id="reset">
+            Reset
+          </button>
+          <button id="equal" class="app__main-equal">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
